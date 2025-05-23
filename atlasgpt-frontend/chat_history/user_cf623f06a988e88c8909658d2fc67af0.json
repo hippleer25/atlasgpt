@@ -1,0 +1,71 @@
+{
+    "chat_history": [
+        {
+            "role": "system",
+            "content": "\n            If the user writes english, so answer english. Se o usuário escrever em português, então repsonda em português.\n            Você é muito importate e decisivo para encontrarmos a localização do nosso usuário.\n            Lembre-se que ele está iniciando ou expandindo seu negócio, e já tem uma localização em mente.\n            Sua função principal aqui é encontrar esta localização.\n            A localização é em território brasileiro.\n            Pergunte onde ficará o negócio que o usuário pretende abrir.\n            Comece perguntando do maior para o menor, onde o seu negócio ficará localizado.\n            Qual a região de abertura/expansão do negócio (Sul, Sudeste, Norte, Nordeste, Centro-Oeste)?\n            Qual o estado?\n            Qual o município?\n            Qual o bairro?\n            Faça as perguntas nessa ordem.\n            Realize todas essas perguntas separadamente.\n            Elabore as perguntas da maneira mais natural e humana possível.\n            Em uma nova mensagem, após o usuário responder a todas as perguntas, pergunte por confirmação das informações. Na sua frase, utilize a palavra \"confirma\".\n            "
+        },
+        {
+            "role": "user",
+            "content": "Eu já tenho uma localização"
+        },
+        {
+            "role": "assistant",
+            "content": "Ótimo! Mas para garantir que eu possa ajudar corretamente, poderia nos confirmar em qual região do Brasil pretendes localizar o teu negócio?"
+        },
+        {
+            "role": "user",
+            "content": "Região Sul"
+        },
+        {
+            "role": "assistant",
+            "content": "Perfeito! Agora, podrias me dizer qual estado do Sul do Brasil está na tua lista de opções para o novo negócio?"
+        },
+        {
+            "role": "user",
+            "content": "No Rio Grande do Sul"
+        },
+        {
+            "role": "assistant",
+            "content": " ótimo! Para aprimorar ainda mais a localização do seu negócio, poderia me indicar o município onde pretende abrir o seu empreendimento no Rio Grande do Sul?\n\nSe já tiveres esse detalhe pronto, avisa que vou te ajudar com o bairro logo depois."
+        },
+        {
+            "role": "user",
+            "content": "Em Porto Alegre\nBairro Santana"
+        },
+        {
+            "role": "assistant",
+            "content": "Perfeito! Confirma se Porto Alegre, no estado do Rio Grande do Sul, e o bairro Santana são as localizações corretas para o seu negócio.\n\nSe tudo estiver certo, estaremos prontos para prosseguir com qualquer outra informação que você precisar."
+        },
+        {
+            "role": "system",
+            "content": "\n                Recomendação encontrada!\n                Com base no cálculo de Índice Potencial de Mercado (IPM) encontramos o resultado.\n                O cálculo foi feito para a cidade escolhida (Porto Alegre).\n                Os melhores tipos de negócios são:\n                Melhor gênero de negócio: Industrias de transformacao\nSegundo melhor gênero de negócio: Outras atividades de servicos\nTerceiro melhor gênero de negócio: Transporte, armazenagem e correio\nQuarto melhor gênero de negócio: Construcao\nQuinto melhor gênero de negócio: Alojamento e alimentacao\n                Explique isso para o usuário.\n                Fale de uma maneira bastante natural.\n                If the chat language is in english, translate all your response to english.\n                "
+        },
+        {
+            "role": "user",
+            "content": "Sim, confirmo"
+        },
+        {
+            "role": "assistant",
+            "content": "Ótimo! Confirmação recebida: o seu negócio será localizado em Porto Alegre, no estado do Rio Grande do Sul, e o bairro escolhido é Santana.\n\nSegundo as informações de Índice Potencial de Mercado (IPM) que encontramos, os melhores tipos de negócios para essa região são:\n\n1. Indústrias de transformação\n2. Outras atividades de serviços\n3. Transporte, armazenagem e correio\n4. Construção\n5. Alojamento e alimentação\n\nEsses dados podem te auxiliar na escolha do tipo específico de negócio que desejas iniciar ou expandir em Santana, Porto Alegre. Se precisar de mais informações ou ajuda com o plano de negócios, estarei à disposição!"
+        },
+        {
+            "role": "system",
+            "content": "\n                Recomendação encontrada!\n                Com base no cálculo de Índice Potencial de Mercado (IPM) encontramos o resultado.\n                O cálculo foi feito para a cidade escolhida (Porto Alegre).\n                Os melhores tipos de negócios são:\n                Melhor gênero de negócio: Industrias de transformacao\nSegundo melhor gênero de negócio: Outras atividades de servicos\nTerceiro melhor gênero de negócio: Transporte, armazenagem e correio\nQuarto melhor gênero de negócio: Construcao\nQuinto melhor gênero de negócio: Alojamento e alimentacao\n                Explique isso para o usuário.\n                Fale de uma maneira bastante natural.\n                If the chat language is in english, translate all your response to english.\n                "
+        }
+    ],
+    "business": [
+        {
+            "region": "Sul",
+            "state": "Rio Grande do Sul",
+            "city": "Porto Alegre",
+            "neighborhood": "Santana"
+        },
+        {
+            "region": "Sul",
+            "state": "Rio Grande do Sul",
+            "city": "Porto Alegre",
+            "neighborhood": "Santana"
+        }
+    ],
+    "profile": []
+}

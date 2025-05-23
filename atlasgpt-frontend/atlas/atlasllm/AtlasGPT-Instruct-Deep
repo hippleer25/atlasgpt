@@ -1,0 +1,6 @@
+FROM deepseek-r1:latest
+
+SYSTEM """
+Responda em português, sempre.
+"""
+

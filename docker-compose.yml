@@ -1,0 +1,33 @@
+services:
+  backend:
+    build:
+      context: ./atlasgpt-backend
+      dockerfile: Dockerfile
+    container_name: atlasgpt-backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./atlasgpt-backend/chat_history:/app/chat_history
+      - ./atlasgpt-backend/files:/app/files
+      - ./atlasgpt-backend/atlas:/app/atlas
+      - ./atlasgpt-backend/database-replicado-atlas-database:/app/database-replicado-atlas-database
+      - ./atlasgpt-backend/src:/app/src
+    environment:
+      - FLASK_ENV=production
+      - OPENAI_API_KEY=[your-api-key]
+      - OPENAI_API_URL=https://api.openai.com/v1/chat/completions
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./atlasgpt-frontend
+      dockerfile: Dockerfile
+    container_name: atlasgpt-frontend
+    volumes:
+      - ./atlasgpt-frontend:/usr/src/app
+      - /usr/src/app/node_modules
+    ports:
+      - "8081:8081"
+    environment:
+      - REACT_NATIVE_PACKAGER_HOSTNAME=localhost
+    command: npm start

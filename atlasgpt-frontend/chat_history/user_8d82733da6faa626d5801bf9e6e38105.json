@@ -1,0 +1,71 @@
+{
+    "chat_history": [
+        {
+            "role": "system",
+            "content": "\n            If the user writes english, so answer english. Se o usuário escrever em português, então repsonda em português.\n            Você é muito importate e decisivo para encontrarmos a localização do nosso usuário.\n            Lembre-se que ele está iniciando ou expandindo seu negócio, e já tem uma localização em mente.\n            Sua função principal aqui é encontrar esta localização.\n            A localização é em território brasileiro.\n            Pergunte onde ficará o negócio que o usuário pretende abrir.\n            Comece perguntando do maior para o menor, onde o seu negócio ficará localizado.\n            Qual a região de abertura/expansão do negócio (Sul, Sudeste, Norte, Nordeste, Centro-Oeste)?\n            Qual o estado?\n            Qual o município?\n            Qual o bairro?\n            Faça as perguntas nessa ordem.\n            Realize todas essas perguntas separadamente.\n            Elabore as perguntas da maneira mais natural e humana possível.\n            Em uma nova mensagem, após o usuário responder a todas as perguntas, pergunte por confirmação das informações. Na sua frase, utilize a palavra \"confirma\".\n            "
+        },
+        {
+            "role": "user",
+            "content": "Eu já tenho uma localização"
+        },
+        {
+            "role": "assistant",
+            "content": "Entendi. Você já tem uma localização em mente para seu negócio. Poderia me dizer qual é a região de abertura ou expansão desse negócio?"
+        },
+        {
+            "role": "user",
+            "content": "Santa Maria"
+        },
+        {
+            "role": "assistant",
+            "content": "Ótimo, Santa Maria é o município onde está localizado seu negócio. Agora, poderia por favor nos informar o estado onde se encontra Santa Maria?"
+        },
+        {
+            "role": "user",
+            "content": "Rio Grande do Sul"
+        },
+        {
+            "role": "assistant",
+            "content": "Perfeito! O estado é Rio Grande do Sul. Para finalizar, poderia me dizer qual bairro está localizado o seu negócio em Santa Maria?"
+        },
+        {
+            "role": "user",
+            "content": "Camobi"
+        },
+        {
+            "role": "assistant",
+            "content": "Muito bem, a localização do seu negócio está no bairro Camobi, Santa Maria, Rio Grande do Sul.\n\nPoderia confirmar as informações para garantir que tudo esteja correto?\n- Região: Sul\n- Estado: Rio Grande do Sul\n- Município: Santa Maria\n- Bairro: Camobi\n\nConfirma essas informações estão certas?"
+        },
+        {
+            "role": "system",
+            "content": "\n                Recomendação encontrada!\n                Com base no cálculo de Índice Potencial de Mercado (IPM) encontramos o resultado.\n                O cálculo foi feito para a cidade escolhida (Santa Maria).\n                Os melhores tipos de negócios são:\n                Melhor gênero de negócio: Construcao\nSegundo melhor gênero de negócio: Industrias de transformacao\nTerceiro melhor gênero de negócio: Outras atividades de servicos\nQuarto melhor gênero de negócio: Alojamento e alimentacao\nQuinto melhor gênero de negócio: Transporte, armazenagem e correio\n                Explique isso para o usuário.\n                Fale de uma maneira bastante natural.\n                If the chat language is in english, translate all your response to english.\n                "
+        },
+        {
+            "role": "user",
+            "content": "sim"
+        },
+        {
+            "role": "assistant",
+            "content": "Perfeito! As informações foram confirmadas.\n\nCom base no cálculo de Índice Potencial de Mercado (IPM) realizado para a cidade escolhida (Santa Maria), os melhores tipos de negócios são:\n\n1. Melhor gênero de negócio: Construção\n2. Segundo melhor gênero de negócio: Indústrias de transformação\n3. Terceiro melhor gênero de negócio: Outras atividades de serviços\n4. Quarto melhor gênero de negócio: Alojamento e alimentação\n5. Quinto melhor gênero de negócio: Transporte, armazenagem e correio\n\nIsso significa que, considerando a região e o bairro especificados, as áreas de construção e indústrias de transformação podem ser particularmente promissoras para seu empreendimento. Se tiver mais alguma dúvida ou precisar de ajuda com algo específico, estou à disposição!"
+        },
+        {
+            "role": "system",
+            "content": "\n                Recomendação encontrada!\n                Com base no cálculo de Índice Potencial de Mercado (IPM) encontramos o resultado.\n                O cálculo foi feito para a cidade escolhida (Santa Maria).\n                Os melhores tipos de negócios são:\n                Melhor gênero de negócio: Construcao\nSegundo melhor gênero de negócio: Industrias de transformacao\nTerceiro melhor gênero de negócio: Outras atividades de servicos\nQuarto melhor gênero de negócio: Alojamento e alimentacao\nQuinto melhor gênero de negócio: Transporte, armazenagem e correio\n                Explique isso para o usuário.\n                Fale de uma maneira bastante natural.\n                If the chat language is in english, translate all your response to english.\n                "
+        }
+    ],
+    "business": [
+        {
+            "region": "Sul",
+            "state": "Rio Grande do Sul",
+            "city": "Santa Maria",
+            "neighborhood": "Camobi Confirma essas informações estão certas?"
+        },
+        {
+            "region": "Sul",
+            "state": "Rio Grande do Sul",
+            "city": "Santa Maria",
+            "neighborhood": "Camobi"
+        }
+    ],
+    "profile": []
+}

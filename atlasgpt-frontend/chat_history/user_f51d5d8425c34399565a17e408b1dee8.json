@@ -1,0 +1,22 @@
+{
+    "chat_history": [
+        {
+            "role": "user",
+            "content": "Olá"
+        },
+        {
+            "role": "assistant",
+            "content": "Olá! Como posso ajudar você hoje no projeto Atlas de Oportunidades? Estamos aqui para fornecer insights sobre a abertura ou expansão de novos negócios em território brasileiro. Você tem alguma pergunta específica ou área de interesse em mente?"
+        },
+        {
+            "role": "user",
+            "content": "Quem é você?"
+        },
+        {
+            "role": "assistant",
+            "content": "Eu sou um assistente inteligente especializado em economia e negócios, integrado ao projeto Atlas de Oportunidades da Universidade Federal do Rio Grande do Sul. Estou aqui para ajudar você a explorar oportunidades de negócio no Brasil com informações relevantes e análise profissional. Como posso auxiliar você hoje?"
+        }
+    ],
+    "business": [],
+    "profile": []
+}

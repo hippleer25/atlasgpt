@@ -1,0 +1,18 @@
+{
+    "chat_history": [
+        {
+            "role": "system",
+            "content": "\n            Write in the language choosed by the user, portuguese or english.\n            You are very important and decisive in helping us find our user's business sector and its location.\n            But now we will first find the user interest sector.\n            Remember that they are starting or expanding their business and already have an economic sector or type of business in mind.\n            You still don't know what sector is.\n            Your main function here is to identify this sector of interest.\n            Send a message to initiate the conversation.\n            Ask for their economic sector or type of business that have in mind\n            Do not write all the sectors in your response.\n            Keep in mind that the sectors covered by AtlasGPT are:\n            - Agriculture, livestock, forestry production, fishing, and aquaculture\n            - Water supply, sewage, waste management, and decontamination activities\n            - Accommodation and food services\n            - Arts, culture, sports, and recreation\n            - Administrative activities and supplementary services\n            - Financial activities, insurance, and related services\n            - Professional, scientific, and technical activities\n            - Commerce; repair of motor vehicles and motorcycles\n            - Construction\n            - Education\n            - Manufacturing industries\n            - Information and communication\n            - Other service activities\n            - Human health and social services\n            - Domestic services\n            - Transportation, storage, and postal services\n            - Extractive industries\n            - Real estate activities\n            - Electricity and gas\n            - Public administration, defense, and social security\n\n            Explain a bit the sector discussed for user.\n\n            After explain the choosed the economic sector, ask for confirmation of their choice using words like confirmation or confirm.\n            "
+        },
+        {
+            "role": "user",
+            "content": "Eu tenho um setor e uma localização"
+        },
+        {
+            "role": "assistant",
+            "content": "Olá! Para poder ajudá-lo melhor, gostaria de saber qual é o setor econômico ou tipo de negócio que você tem em mente. Você poderia me informar qual é o setor que você está considerando? \n\nPor exemplo, setores como agricultura, construção, comércio ou saúde, entre outros. Assim, posso entender melhor o seu interesse e ajudar de forma mais precisa. \n\nPor favor, compartilhe a sua ideia!"
+        }
+    ],
+    "business": [],
+    "profile": []
+}

@@ -1,0 +1,26 @@
+{
+    "chat_history": [
+        {
+            "role": "system",
+            "content": "\n            If the user writes english, so answer english. Se o usuário escrever em português, então repsonda em português.\n            Você é muito importate e decisivo para encontrarmos a localização do nosso usuário.\n            Lembre-se que ele está iniciando ou expandindo seu negócio, e já tem uma localização em mente.\n            Sua função principal aqui é encontrar esta localização.\n            A localização é em território brasileiro.\n            Pergunte onde ficará o negócio que o usuário pretende abrir.\n            Comece perguntando do maior para o menor, onde o seu negócio ficará localizado.\n            Qual a região de abertura/expansão do negócio (Sul, Sudeste, Norte, Nordeste, Centro-Oeste)?\n            Qual o estado?\n            Qual o município?\n            Qual o bairro?\n            Faça as perguntas nessa ordem.\n            Realize todas essas perguntas separadamente.\n            Elabore as perguntas da maneira mais natural e humana possível.\n            Em uma nova mensagem, após o usuário responder a todas as perguntas, pergunte por confirmação das informações. Na sua frase, utilize a palavra \"confirma\".\n            "
+        },
+        {
+            "role": "user",
+            "content": "Eu já tenho uma localização"
+        },
+        {
+            "role": "assistant",
+            "content": "Ótimo! Então vamos direto ao ponto para confirmar as informações.\n\nQual a região de abertura/expansão do seu negócio (Sul, Sudeste, Norte, Nordeste, Centro-Oeste)?"
+        },
+        {
+            "role": "user",
+            "content": "Eu gostaria de abrir na região su"
+        },
+        {
+            "role": "assistant",
+            "content": "Perfeito! Você escolheu a região Sudeste. Podemos prosseguir.\n\nQual estado será o local do seu negócio dentro da região Sudeste?"
+        }
+    ],
+    "business": [],
+    "profile": []
+}

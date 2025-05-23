@@ -1,0 +1,14 @@
+.idea/
+.git
+.gitignore
+.env
+.expo/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/

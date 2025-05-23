@@ -1,0 +1,87 @@
+{
+    "chat_history": [
+        {
+            "role": "system",
+            "content": "\n            If the user writes english, so answer english. Se o usuário escrever em português, então repsonda em português.\n            Você é muito importate e decisivo para encontrarmos a localização do nosso usuário.\n            Lembre-se que ele está iniciando ou expandindo seu negócio, e já tem uma localização em mente.\n            Sua função principal aqui é encontrar esta localização.\n            A localização é em território brasileiro.\n            Pergunte onde ficará o negócio que o usuário pretende abrir.\n            Comece perguntando do maior para o menor, onde o seu negócio ficará localizado.\n            Qual a região de abertura/expansão do negócio (Sul, Sudeste, Norte, Nordeste, Centro-Oeste)?\n            Qual o estado?\n            Qual o município?\n            Qual o bairro?\n            Faça as perguntas nessa ordem.\n            Realize todas essas perguntas separadamente.\n            Elabore as perguntas da maneira mais natural e humana possível.\n            Em uma nova mensagem, após o usuário responder a todas as perguntas, pergunte por confirmação das informações. Na sua frase, utilize a palavra \"confirma\".\n            "
+        },
+        {
+            "role": "user",
+            "content": "Eu já tenho uma localização"
+        },
+        {
+            "role": "assistant",
+            "content": "Ótimo! Para te ajudar a refinar essa localização e garantir que tudo esteja alinhado com seus planos, vamos detalhar um pouco mais.\n\nPrimeiramente, em qual região do Brasil você está pensando em abrir ou expandir seu negócio? (Sul, Sudeste, Norte, Nordeste, Centro-Oeste)\n"
+        },
+        {
+            "role": "user",
+            "content": "Eu gostaria de abrir na região sul"
+        },
+        {
+            "role": "assistant",
+            "content": "Excelente! A região Sul é linda e tem muito potencial.\n\nAgora, qual estado da região Sul você está considerando para o seu negócio?"
+        },
+        {
+            "role": "user",
+            "content": "Hmm\nProvavelmente o Rio Grande do SUl"
+        },
+        {
+            "role": "assistant",
+            "content": "Perfeito! Rio Grande do Sul é um ótimo estado.\n\nE em qual município (cidade) do Rio Grande do Sul você está pensando em abrir ou expandir seu negócio?"
+        },
+        {
+            "role": "user",
+            "content": "Porto Alegre!"
+        },
+        {
+            "role": "assistant",
+            "content": "Porto Alegre, que legal! Uma cidade vibrante!\n\nAgora, para refinar ainda mais a localização, em qual bairro de Porto Alegre você está considerando para o seu negócio?"
+        },
+        {
+            "role": "user",
+            "content": "Bairro Santana"
+        },
+        {
+            "role": "assistant",
+            "content": "Santana, em Porto Alegre, ótimo!\n\nPara finalizarmos a identificação da localização, você poderia me informar qual é o bairro em Santana?"
+        },
+        {
+            "role": "user",
+            "content": "Não\nÉ o Bairro Santada de Porto Alegre"
+        },
+        {
+            "role": "assistant",
+            "content": "Entendido! Agradeço a correção.\n\nEntão, para garantir que tudo está perfeito, poderia confirmar as informações que coletamos? Seu negócio estará localizado em Santana, bairro de Porto Alegre, no estado do Rio Grande do Sul, na região Sul do Brasil. Confirma?"
+        },
+        {
+            "role": "system",
+            "content": "\n                Recomendação encontrada!\n                Com base no cálculo de Índice Potencial de Mercado (IPM) encontramos o resultado.\n                O cálculo foi feito para a cidade escolhida (Porto Alegre).\n                Os melhores tipos de negócios são:\n                Melhor gênero de negócio: Industrias de transformacao\nSegundo melhor gênero de negócio: Outras atividades de servicos\nTerceiro melhor gênero de negócio: Transporte, armazenagem e correio\nQuarto melhor gênero de negócio: Construcao\nQuinto melhor gênero de negócio: Alojamento e alimentacao\n                Explique isso para o usuário.\n                Fale de uma maneira bastante natural.\n                If the chat language is in english, translate all your response to english.\n                "
+        },
+        {
+            "role": "user",
+            "content": "Confirmo"
+        },
+        {
+            "role": "assistant",
+            "content": "Maravilha! Que bom que pudemos confirmar tudo.\n\nAproveitando que já temos a localização definida, eu fiz uma análise com base no Índice Potencial de Mercado (IPM) para Porto Alegre. Os resultados são bem interessantes!\n\nParece que, considerando o cenário da cidade, os tipos de negócios que têm mais potencial para se destacar são:\n\n1.  **Indústrias de Transformação:** Parece que a cidade tem uma demanda grande por produtos transformados, ou seja, aqueles que passam por um processo de produção.\n2.  **Outras Atividades de Serviços:** Há uma demanda por diversos serviços que não se encaixam em categorias específicas, o que pode abrir um leque de oportunidades.\n3.  **Transporte, Armazenagem e Correio:** A movimentação de produtos e pessoas na cidade indica uma demanda constante por esses serviços.\n4.  **Construção:** Parece haver oportunidades no setor de construção civil, seja para novas construções ou reformas.\n5.  **Alojamento e Alimentação:** A cidade atrai muitos visitantes, o que gera demanda por hotéis, restaurantes e similares.\n\nEssas são apenas algumas sugestões, claro! A escolha do seu negócio depende muito do seu conhecimento, paixão e plano de negócios. Mas essa análise pode te dar um ponto de partida para pensar em oportunidades interessantes em Porto Alegre.\n\n---\n\n*(English Translation)*\n\nWonderful! I'm glad we could confirm everything.\n\nTaking advantage of the fact that we've defined the location, I did an analysis based on the Market Potential Index (IPM) for Porto Alegre. The results are quite interesting!\n\nIt appears that, considering the city's scenario, the types of businesses that have the most potential to stand out are:\n\n1.  **Manufacturing Industries:** It seems that the city has a high demand for transformed products, that is, those that undergo a production process.\n2.  **Other Service Activities:** There is a demand for various services that do not fit into specific categories, which can open up a wide range of opportunities.\n3.  **Transportation, Warehousing and Courier:** The movement of people and products in the city indicates a constant demand for these services.\n4.  **Construction:** There seem to be opportunities in the construction sector, whether for new constructions or renovations.\n5.  **Lodging and Food Services:** The city attracts many visitors, which generates demand for hotels, restaurants and similar businesses.\n\nThese are just a few suggestions, of course! The choice of your business greatly depends on your knowledge, passion and business plan. But this analysis can give you a starting point to think about interesting opportunities in Porto Alegre."
+        },
+        {
+            "role": "system",
+            "content": "\n                Recomendação encontrada!\n                Com base no cálculo de Índice Potencial de Mercado (IPM) encontramos o resultado.\n                O cálculo foi feito para a cidade escolhida (Porto Alegre).\n                Os melhores tipos de negócios são:\n                Melhor gênero de negócio: Industrias de transformacao\nSegundo melhor gênero de negócio: Outras atividades de servicos\nTerceiro melhor gênero de negócio: Transporte, armazenagem e correio\nQuarto melhor gênero de negócio: Construcao\nQuinto melhor gênero de negócio: Alojamento e alimentacao\n                Explique isso para o usuário.\n                Fale de uma maneira bastante natural.\n                If the chat language is in english, translate all your response to english.\n                "
+        }
+    ],
+    "business": [
+        {
+            "region": "Sul",
+            "state": "Rio Grande do Sul",
+            "city": "Porto Alegre",
+            "neighborhood": "Santana"
+        },
+        {
+            "region": "Sul",
+            "state": "Rio Grande do Sul",
+            "city": "Porto Alegre",
+            "neighborhood": "Santana"
+        }
+    ],
+    "profile": []
+}

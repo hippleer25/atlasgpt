@@ -1,0 +1,14 @@
+{
+    "chat_history": [
+        {
+            "role": "user",
+            "content": "Oi, boa noite!"
+        },
+        {
+            "role": "assistant",
+            "content": "Boa noite! Como posso ajudar você hoje em relação ao Atlas de Oportunidades? Você está interessado em pesquisar oportunidades para abrir ou expandir um negócio no Brasil?"
+        }
+    ],
+    "business": [],
+    "profile": []
+}
